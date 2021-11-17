@@ -2,13 +2,120 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700&subset=latin,latin-ext' rel='stylesheet'
+          type='text/css'>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
     <title>Tatyana Guntik CV</title>
 </head>
 <body>
-<header></header>
 
-<main>test</main>
+<header>
+    <div class="logo">Tatyana Guntik<span>CV</span></div>
+
+    <i class="fas fa-bars js-open-nav-menu"></i>
+    <nav>
+        <a href="#education">Education</a>
+        <a href="#first-job">First job</a>
+        <a href="#current-time">Current time</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<main>
+    <div class="section_wrap">
+        <section class="skills">
+            <img src="img/foto.jpg" alt="">
+            <div class="job-wrap">
+                <h2>Skills:</h2>
+                <ul>
+                    <li>HTML, CSS, Sass, JavaScript, PHP, SQL, jQuery.</li>
+                    <li>OOP, SOLID, MVC.</li>
+                    <li>Basic knowledge of Magento, SAP.</li>
+                    <li>Basic knowledge of framework Bootstrap.</li>
+                    <li>Familiar with tools like GitHub. https://github.com/TatyanaGuntik</li>
+                    <li>Familiar with Photoshop and Zeplin.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="first-job" id="first-job">
+            <img src="img/firstJob.jpeg" alt="">
+
+            <div class="job-wrap">
+                <h2>Junior Web-developer – Craftsmen&Cervices AG Project</h2>
+                <p>Creating and fix layouts,</p>
+                <p>working with custom backend system,</p>
+                <p>fixing Wordpress sites - page speed optimization,</p>
+                <p>hosting.</p>
+            </div>
+            <div class="data">11.2019 - 10.2020</div>
+        </section>
+
+        <section class="second-job">
+            <img src="img/magento.jpg" alt="">
+
+            <div class="job-wrap">
+                <h2>Trainee/junior magento developer</h2>
+                <p>Studying system,</p>
+                <p>creating simple module <a href="https://github.com/TatyanaGuntik/Giftcard2" target="_blank">https://github.com/TatyanaGuntik/Giftcard2</a>,</p>
+                <p>supporting already existing projects.</p>
+            </div>
+            <div class="data">10.2020 - 02.2021</div>
+        </section>
+
+        <section class="now-job" id="current-time">
+            <img src="img/now.png" alt="">
+
+            <div class="job-wrap">
+                <h2>Web-developer</h2>
+                <p>Creating and fix layouts for custom ecommerce sistem,</p>
+                <p>working with custom backend system.</p>
+            </div>
+            <div class="data">02.2021 - current time</div>
+        </section>
+
+        <section class="education" id="education">
+            <div class="education-wrap">
+                <h2>Education:</h2>
+                <ul>
+                    <li>Course PHP-developer in SkillUp.</li>
+                    <li>EPAM Training Center - FrontEnd Program - Junior Frontend Developer</li>
+                    <li>Self education every day</li>
+                </ul>
+            </div>
+        </section>
+    </div>
+
+    <aside>
+        <div class="aside-block_wrap" id="contact">
+            <img src="img/contact.jpg" alt="">
+
+            <div class="aside-block_text">
+                <h2>Contacts:</h2>
+                <p>Kyiv, Ukraine</p>
+                <p>Viber/Phone/Telegram: <a href="viber://chat?number=%2B80637895346">+380637895346</a></p>
+                <p>E-mail: <a href="mailto:tatyanaguntik@gmail.com">tatyanaguntik@gmail.com</a></p>
+            </div>
+        </div>
+
+        <div class="aside-block_wrap">
+            <img src="img/english.png" alt="">
+
+            <div class="aside-block_text">
+                <h2>English level:</h2>
+                <p>intermediate B1 - <a href="https://geekbrains.ru/certificates/664033">https://geekbrains.ru/certificates/664033</a></p>
+            </div>
+        </div>
+    </aside>
+</main>
 
 <footer></footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<script src="./js/custom.js"></script>
 </body>
 </html>
